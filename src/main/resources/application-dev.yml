@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_biblioteca?useSSL=false
+    username: biblioteca
+    password: biblioteca
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
